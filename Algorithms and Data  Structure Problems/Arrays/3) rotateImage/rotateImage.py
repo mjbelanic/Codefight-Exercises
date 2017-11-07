@@ -1,0 +1,1 @@
+rotateImage = lambda a: zip(*a[::-1])

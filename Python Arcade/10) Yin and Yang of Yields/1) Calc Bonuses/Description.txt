@@ -1,0 +1,39 @@
+You are working on a revolutionary video game. In this game the player will be able to collect several types of bonuses on each level, and his total score for the level is equal to the sum of the first n bonuses he collected. However, if he collects less than n bonuses, his score will be equal to 0.
+
+Given the bonuses the player got, your task is to return his final score for the level.
+
+Example
+
+For bonuses = [4, 2, 4, 5] and n = 3,
+the output should be
+calcBonuses(bonuses, n) = 10.
+
+4 + 2 + 4 = 10.
+
+For bonuses = [4, 2, 4, 5] and n = 5,
+the output should be
+calcBonuses(bonuses, n) = 0.
+
+The player has collected only 4 bonuses, so his final score is 0.
+
+Input/Output
+
+[time limit] 4000ms (py)
+[input] array.integer bonuses
+
+A list of bonuses the player collected.
+
+Guaranteed constraints:
+0 ≤ bonuses.length ≤ 20,
+0 ≤ bonuses[i] ≤ 50.
+
+[input] integer n
+
+The number of bonuses that should be collected to obtain non-zero final score.
+
+Guaranteed constraints:
+1 ≤ n ≤ 20.
+
+[output] integer
+
+Final score for the level.
